@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+
+}
+
+.page-wrapper {
+    max-width: 1024px;
+    margin: 30px auto;
+    background-color: antiquewhite;
+    padding: 15px ;
+}
+
+header {
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 30vh;
+    width: 100%;  
+}
+
+h1, h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+section.my-portfolio {
+    position: relative;
+    border: 5px solid teal;
+    border-radius: 15px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 0 20px;
+}
+section.my-portfolio h3.my-portfolio-title {
+    text-align: center;
+}
+div.first-row {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+    padding: 10px;
+}
+div.portfolio-item {
+    border: 5px solid teal;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin: 0 10px;
+    
+}
+div.portfolio-item:hover {
+    border: 1px solid white;
+    background-color: teal;
+    color: white;
+}
+div.portfolio-item h4 {
+    font-weight: bold;
+    font-size: 20px;
+}
+div.portfolio-item p {
+    text-align: center;
+    padding: 2px;
+}
+div.second-row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#grid-layout h2{
+    color: black ;
+}
+
+.basic-grid,
+.advance-grid{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: maroon; 
+    color: white;
+    gap:5px;
+    padding:5px;
+}
+
+
+.basic-grid>div,
+.advance-grid>div {
+    border:1px solid white;
+    text-align: center;
+    line-height: 52px;
+    padding: 15px;
+    box-shadow:-5px 5px #999;
+}
+
+.item1 {
+    grid-column-start:1;
+    grid-column-end:1;
+    grid-row:1/3;
+}
+
+.item2 {
+    grid-column-start:2;
+    grid-column-end:3;
+
+}
+
+.item3 {
+    grid-column-start:3;
+    grid-column-end:5;
+   
+}
+
+.item4 {
+    grid-column-start:2;
+    grid-column-end:3;
+}
+
+.item5 {
+    grid-column-start:3;
+    grid-column-end:4;
+}
+
+
+.item7 {
+    grid-column-start:2;
+    grid-column-end:3;
+}
+
+.item8 {
+    grid-column-start:3;
+    grid-column-end:5;
+}
+
+.item9 {
+    grid-column-start:2;
+    grid-column-end:3;
+}
+
+.item10 {
+    grid-column-start:1;
+    grid-column-end:1;
+    grid-row:3/5;
+}
+
+
+.advance-grid .item1{
+    grid-column-start:1;
+    grid-column-end:1;
+}
+
+.advance-grid .item2{
+    grid-column-start:2;
+    grid-column-end:2;
+}
+
+.basic-grid,
+.advance-grid{
+    display:grid;
+    grid-template-columns: auto auto auto auto  ;
+    background-color: maroon;
+    gap:5px;
+    padding:5px;
+}
+
